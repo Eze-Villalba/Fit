@@ -1,0 +1,17 @@
+{
+  "name": "Aleph Fit",
+  "short_name": "Aleph Fit",
+  "description": "Rutina de gimnasio, registro de cargas y seguimiento corporal. Funciona sin internet.",
+  "lang": "es-AR",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#10151f",
+  "theme_color": "#10151f",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

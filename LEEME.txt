@@ -1,0 +1,25 @@
+ALEPH FIT - app personal de entrenamiento (PWA)
+
+Archivos (subilos todos juntos, en la misma carpeta):
+  index.html              la app completa
+  sw.js                   hace que funcione sin internet
+  manifest.webmanifest    permite instalarla en el telefono
+  icon-*.png              iconos
+
+Publicar gratis con GitHub Pages:
+  1. Entra a github.com y crea una cuenta (o inicia sesion).
+  2. Boton "+" arriba a la derecha > New repository. Nombre: aleph-fit. Public. Create repository.
+  3. En el repositorio: "uploading an existing file". Arrastra los 7 archivos de esta carpeta. Commit changes.
+  4. Settings > Pages > Source: "Deploy from a branch" > Branch: main, carpeta / (root) > Save.
+  5. Espera 1 o 2 minutos. La direccion queda: https://TU-USUARIO.github.io/aleph-fit/
+
+Instalar en Android:
+  1. Abri esa direccion en Chrome.
+  2. Menu de tres puntos > "Agregar a pantalla principal" > "Instalar".
+     (Tambien aparece el boton "Instalar la app" en Ajustes.)
+
+Importante:
+  - Los datos se guardan solo en el telefono y quedan atados a esa direccion web.
+    Si cambias de direccion o de celular: Ajustes > Exportar respaldo, y en el nuevo lugar Importar.
+  - Si borras "datos del sitio" en Chrome se pierde todo. Exporta un respaldo cada tanto.
+  - Para actualizar la app: reemplaza index.html en GitHub y cambia 'aleph-fit-v1' por 'aleph-fit-v2' en sw.js.
